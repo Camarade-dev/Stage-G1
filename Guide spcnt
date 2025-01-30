@@ -1,0 +1,7 @@
+Étapes pour utiliser les scripts python sur le spcnt : 
+
+installer toutes les bibliothèques nécéssaires : surtout pyvisa voir "https://github.com/Thorlabs/Light_Analysis_Examples/blob/main/Python/Thorlabs%20PMxxx%20Power%20Meters/scpi/PMxxx_SCPI_pyvisa.py"
+
+ensuite lancer lire_ressources et regarder l'identifiant dans la console
+
+remplacer l'identifiant dans les autres codes. 
