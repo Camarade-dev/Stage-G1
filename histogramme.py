@@ -54,8 +54,9 @@ class FrequencyHistogram(QMainWindow):
             moyennes = 0
             while self.running:
                 compteur+=1
-                frequency = random.uniform(100, 200)  # Générer fréquence aléatoire
-                #frequency = int(self.instr.query("MEAS:FREQ?"))+freq_r
+                
+                frequency = int(self.instr.query("MEAS:FREQ?"))#lit la frequence sur le spcnt
+                
                 binned_freq = self.get_frequency_bin(frequency, bin_size=10)  # Regrouper par paquets (bin_size)
                 self.frequency_counts[binned_freq] += 1
                 self.update_histogram()
