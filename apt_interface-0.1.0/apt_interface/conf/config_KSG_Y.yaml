@@ -1,0 +1,5 @@
+name: Y_axis_gauge
+serial_nm: "59000398"   # Numéro de série du KSG
+baudrate: 115200
+out: chann2
+unit: pos

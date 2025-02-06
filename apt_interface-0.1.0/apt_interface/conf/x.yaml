@@ -1,0 +1,5 @@
+name: "KPZ101_X_Controller"  # Nom du contrôleur (remplace par un nom pertinent)
+serial_nm: "29501986"        # Numéro de série (remplace par le numéro réel du KPZ101)
+baudrate: 115200             # Baudrate de communication
+mode: "open_loop"            # Mode de fonctionnement
+voltage_limit: 75            # Limite de tension (choisir parmi 75, 100 ou 150)

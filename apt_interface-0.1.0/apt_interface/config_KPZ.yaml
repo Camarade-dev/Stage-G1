@@ -1,0 +1,5 @@
+name: X_axis_controller # nom du contrôleur
+serial_nm: "29501986" # numéro de série du contrôleur
+baudrate: 115200 # vitesse du port série
+mode: open_loop # mode donne au contrôleur (ici open car contrôle en tension)
+voltage_limit: 75 # tension maximale (il est possible de la changer mais le nanomax n'accepte pas des tensions superieur à 75V)

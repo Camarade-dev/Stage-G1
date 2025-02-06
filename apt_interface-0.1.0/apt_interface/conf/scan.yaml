@@ -1,0 +1,26 @@
+zoi:  # Zone of Interest (parallélépipède)
+  ref_point:  # Le point de référence le plus proche de (0,0,0)
+    X: 0 
+    Y: 0 
+    Z: null 
+  dimensions:
+    X: 327
+    Y: 327
+    Z: null 
+
+scan_type: "spirale"
+acquisition_time: 0.0002
+
+balayage:
+  steps:
+    X: 100
+    Y: 100
+    Z: null 
+
+spirale:
+  rmax: 1.0  # Rayon plus petit
+  n: 1  # Moins de points
+  v: 10  # Réduction de la vitesse
+  w: 0.05  # Réduction de l'espacement angulaire
+
+mode: "open_loop"  # Mode de fonctionnement
