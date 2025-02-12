@@ -15,8 +15,11 @@ The Meson build system
       WARNING: Failed to activate VS environment: Could not parse vswhere.exe output
 ```
 j'ai donc installé visual studio (différent de visual studio code) mais : 
-  Need python for x86_64, but found x86
-
-  installer la bonne version 86_64 de python et ADD_TO_PATH très important puis python -m pip install C:\Path\to\apt_interface-0.1.0-py3-none-any.whl
-
+  ```
+Need python for x86_64, but found x86
+```
+  installer la bonne version **86_64 de python et ADD_TO_PATH très important** puis 
+  ```
+  python -m pip install C:\Path\to\apt_interface-0.1.0-py3-none-any.whl
+```
 Créer le fichier config_devicename.yaml et mettre un exemple de code dedans. 
