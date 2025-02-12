@@ -34,3 +34,9 @@ aller dans C:\...\apt_interface-0.1.0\apt_interface-0.1.0> et faire ```pip insta
 
 Brancher usb sur pc, HV-OUT sur le nanomax et AUCUNE BOUCLE FERME PHYSIQUE ! 
 
+
+Avoir une version python >= 3.10 dans l'environnement créé 
+conda create --name nom python=3.10
+pip install spyder
+pip install pyqtgraph
+
